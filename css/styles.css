@@ -1,0 +1,111 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #4AB19A;
+  margin:50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Inspiration', cursive;
+}
+h2{
+  color: #4AB19A;
+  font-size: 1.9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border-color: #E0EBE8;
+  border-style: dotted none none;
+  border-width: 9px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 5%;
+}
+p{
+  color: #40514E;
+}
+.top-container{
+  background-color: #E0EBE8;
+  position: relative;
+  padding-top: 100px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:280px;
+  bottom:300px;
+}
+.top-cloud{
+  position: absolute;
+  right:280px;
+  top:50px;
+}
+.bottom-container{
+  background-color: #E0EBE8;
+  padding: 20px 0 10px 0;
+  margin-top: 30px;
+}
+.profile-pic{
+  margin-top: 40px;
+  height: 200px;
+  width: 200px;
+}
+.intro{
+  font-size: 22px;
+}
+.footer-image{
+  height: 60px;
+  width: 60px;
+}
+.copyright{
+  font-size: 12px;
+  margin: 16px auto 0 auto;
+  padding-bottom: 3px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.frontend{
+  width: 25%;
+  float: left;
+  margin-right: 70px;
+}
+.sports{
+  width: 25%;
+  float: right;
+  margin-left: 70px;
+}
+.introduction-text{
+  line-height: 3;
+  margin:auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4AB19A;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #479e9e;
+  text-decoration: none;
+}
+.footer-link{
+  padding: 0 10px 0 10px;
+}
